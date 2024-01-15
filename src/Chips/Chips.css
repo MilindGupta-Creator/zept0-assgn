@@ -1,0 +1,40 @@
+.inputbox{
+    padding: 1rem;
+    font-size: 1rem;
+    border-bottom-color: blue;
+}
+
+.available{
+    position: 'absolute';
+    top: '100%';
+    left: 0;
+    border: '1px solid #ccc';
+    list-style: none;
+    
+}
+
+.chipstyle{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    left: 3rem;
+    top: 10px;
+}
+.chip{
+    border: 1px solid black;
+    background-color: #dbd6d6;
+    border-radius: 13px;
+    width: 7rem;
+    padding: 4px;
+}
+
+.listul{
+    border: 1px solid black;
+
+}
+
+.naming{
+    position: fixed;
+    left: 3rem;
+    font-weight: 700;
+}
